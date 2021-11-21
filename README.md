@@ -14,7 +14,13 @@ Ecommerce API created with python django framework
 | `POST` | /api/v1/{djoser endpoints}/ | You can use djoser endpoints. [djoser docs](https://djoser.readthedocs.io/en/latest/getting_started.html#available-endpoints)  |
 | `POST` | /api/v1/checkout/ | send details to process stripe charge and create orders | 
 
-# Installations & Setup 
+# Docker 
+
+```bash
+docker-compose up
+```
+
+# Manual Installations & Setup 
 1. Clone the repo to local system 
 ``` 
 git clone https://github.com/akhtersoyeb/ECOMMERCE_API.git
